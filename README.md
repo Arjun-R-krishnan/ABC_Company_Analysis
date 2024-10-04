@@ -9,7 +9,8 @@ This project is an in-depth analysis of employee data from ABC Company, aimed at
 ### 1. **Data Preprocessing**
    - **Loading the Dataset**: The dataset was loaded and inspected to understand the structure and ensure there were no missing values.
    - **Random Data Generation**: A column for `Height` was generated randomly for all employees to complement the analysis.
-
+   - **In the preprocessing phase, null values in the "College" column were replaced with "Unknown" to ensure data completeness.                 Additionally, null values in the "Salary" column were removed, as the number of missing entries was negligible and did not 
+       significantly impact the overall analysis.
 ### 2. **Analysis Tasks**
    The following tasks were performed to gain insights into the data:
    
